@@ -6,20 +6,20 @@ public class prjInter {
 	public static void main(String[] args) {
 		Scanner ler= new Scanner(System.in);
 		final int TAM=10;
-		int a[], b[], c[],inter=0, i, j, k;
+		int a[], b[], c[],inter=0, i, j;
 		a=new int [TAM];
 		b=new int [TAM];
 		c=new int[TAM];
 
 		
 		for(i=0; i<TAM; i++) {
-			System.out.println("Escreva o valor número "+(i+1)+" de A: ");
+			System.out.println("Escreva o valor nÃºmero "+(i+1)+" de A: ");
 			a[i]= ler.nextInt();
 		}
 		System.out.println("\n");
 		
 		for(i=0; i<TAM; i++) {
-			System.out.println("Escreva o valor número "+(i+1)+" de B: ");
+			System.out.println("Escreva o valor nÃºmero "+(i+1)+" de B: ");
 			b[i]= ler.nextInt();
 			
 			for(j=0; j<TAM; j++) {
