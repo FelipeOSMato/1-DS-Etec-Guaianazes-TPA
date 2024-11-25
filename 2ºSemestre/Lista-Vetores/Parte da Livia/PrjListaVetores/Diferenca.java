@@ -26,6 +26,8 @@ public class Diferenca {
               }
             }
       }  
+      
+      c = new int[TAM];
 		
 	    for (i=0; i<TAM; i++) {
 	    	k=0;
