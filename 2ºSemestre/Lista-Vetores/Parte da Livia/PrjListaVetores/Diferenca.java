@@ -4,7 +4,7 @@ public class Diferenca {
 		Scanner in = new Scanner(System.in);
 		
 		final int TAM = 10;
-	    int a[], b[], c[], i=0, j=0, k=0, cont=0;
+	    int a[], b[], c[], i=0, j=0, k=0, cont=0, tamC++;
 	    a = new int[TAM];
 	    b = new int[TAM];
 	    c = new int[TAM];
@@ -18,6 +18,14 @@ public class Diferenca {
 	    	System.out.print("Digite a " + (i+1) + "º posição do vetor B: ");
 	        b[i] = in.nextInt();
 	      }
+
+     for(i=0; i<TAM; i++){
+     for(j=0; j<TAM; j++){
+       if(a[i]!=b[j]){
+        tamC++;
+              }
+            }
+      }  
 		
 	    for (i=0; i<TAM; i++) {
 	    	k=0;
